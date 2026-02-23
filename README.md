@@ -1,6 +1,48 @@
 # CampusPe-Assignmet-2
 Full name : Sai Naga Abhinay Devulapalli
 
+# Project Description:
+----------------------------------------
+
+This assignment contains a collection of beginner-level Python programs designed to strengthen understanding of core programming concepts.
+
+The programs cover:
+
+- Variables and Data Types
+- Conditional Statements (if-else, nested conditions)
+- Loops (for, while)
+- Functions
+- String Manipulation
+- Mathematical Computations
+- Menu-Driven Programs
+- Number System Logic
+- Basic Game Implementation
+
+Each program is written using structured logic with proper validations wherever necessary (e.g., division by zero handling, minimum balance validation in ATM simulator, invalid input checks, etc.).
+
+----------------------------------------
+Special Instructions:
+----------------------------------------
+
+1. Some programs are menu-driven and will continue running until the user chooses to exit.
+2. The ATM Simulator maintains a minimum balance requirement.
+3. The Temperature Converter and Calculator programs use function-based modular implementation.
+4. The Random Number Guessing Game uses Python's built-in 'random' module.
+5. All programs are written using only built-in Python libraries.
+6. The entire assignment can be run as a single Python file.
+
+----------------------------------------
+Challenges Faced:
+----------------------------------------
+
+1. Handling edge cases such as division by zero and invalid user inputs.
+2. Designing menu-driven programs that repeatedly execute until exit.
+3. Implementing number system logic like Armstrong number, GCD (Euclidean algorithm), and Perfect number.
+4. Managing nested loops for pattern printing.
+5. Ensuring clean logic flow when multiple interactive programs are combined in a single file.
+
+These challenges helped improve logical thinking and structured problem-solving ability.
+
 #  Python 20 Practice Programs
 
 A collection of 20 beginner-friendly Python programs covering core programming concepts such as variables, loops, conditionals, functions, number systems, and menu-driven applications.
@@ -127,7 +169,7 @@ Menu-driven calculator using separate functions for:
 - Modulus  
 - Power  
 
-### 19. (Reserved / Not Included)
+### 19. ( Not Included as was not able to solve it with ease and without certain built-in functions.Also failure in certain test cases.) 
 
 ### 20. Number System Functions
 Menu-driven mathematical utility including:
@@ -143,7 +185,7 @@ Menu-driven mathematical utility including:
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 1. Install Python (3.x recommended).
 2. Clone this repository or download the file.
