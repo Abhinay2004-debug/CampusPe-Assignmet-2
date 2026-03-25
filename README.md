@@ -218,3 +218,151 @@ This project is created for:
 ##  License
 
 This project is for educational purposes.
+
+
+# Generative AI API Integration (Assignment)
+
+##  Overview
+
+This project demonstrates integration of multiple Generative AI APIs using Python.
+Each API is implemented in a separate Python file that:
+
+* Accepts user input
+* Sends request to the API
+* Displays AI-generated response
+* Handles errors where applicable
+
+---
+
+##  APIs Implemented
+
+### 1. Groq API
+
+* File: `groq_api.py`
+* Model: `llama-3.3-70b-versatile`
+* Description: Uses Groq platform for fast LLM inference.
+
+---
+
+### 2. Google Gemini API
+
+* File: `gemini_api.py`
+* Model: `gemini-3-flash-preview`
+* Description: Uses Google Gemini models via `google-genai` SDK.
+
+---
+
+### 3. Hugging Face API
+
+* File: `huggingface_api.py`
+* Model: `MiniMaxAI/MiniMax-M2.5:novita`
+* Description: Uses Hugging Face InferenceClient with chat completion.
+
+---
+
+### 4. Cohere API
+
+* File: `cohere_api.py`
+* Model: `command-r7b-12-2024`
+* Description: Uses Cohere chat API (ClientV2) for text generation.
+
+---
+
+### 5. Ollama API (Local)
+
+* File: `ollama_api.py`
+* Model: `gemma3:1b`
+* Description: Runs locally using Ollama (no external API cost).
+
+---
+
+##  Setup Instructions
+
+### 1. Clone Repository
+
+```bash
+git clone <your-repo-link>
+cd CampusPe-Assignmet-2
+```
+
+---
+
+### 2. Create Virtual Environment
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+---
+
+### 3. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+### 4. Create `.env` File
+
+Add your API keys:
+
+```env
+GROQ_API_KEY=your_key
+GEMINI_API_KEY=your_key
+HF_API_KEY=your_key
+COHERE_API_KEY=your_key
+```
+
+---
+
+##  Running the Programs
+
+Run each file individually:
+
+```bash
+python groq_api.py
+python gemini_api.py
+python huggingface_api.py
+python cohere_api.py
+python ollama_api.py
+```
+
+---
+
+##  Screenshots
+
+Screenshots of outputs are included in the `screenshots/` folder and uploaded in seperate document.
+
+---
+
+##  Notes
+
+* API keys are stored securely using environment variables
+* `.env` file is not uploaded for security reasons
+* Some APIs may have:
+
+  * Rate limits
+  * Model availability issues
+* Ollama requires local installation:
+
+  ```
+  https://ollama.com
+  ```
+
+---
+
+## Features
+
+* Multiple AI API integrations
+* Consistent program structure
+* User input handling
+* Error handling
+* Secure API key management
+
+---
+
+##  Conclusion
+
+This project demonstrates practical integration of multiple AI providers and highlights differences in API design, model usage, and response handling across platforms.
