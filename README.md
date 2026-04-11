@@ -366,3 +366,41 @@ Screenshots of outputs are included in the `screenshots/` folder and uploaded in
 ##  Conclusion
 
 This project demonstrates practical integration of multiple AI providers and highlights differences in API design, model usage, and response handling across platforms.
+
+## Chatbot UI
+
+# Modern Chat UI (Frontend Only)
+
+## Overview
+This project is a modern, responsive chat user interface built using HTML, CSS, JavaScript, jQuery, and Bootstrap 5. It simulates the look and feel of AI chat applications like ChatGPT or Claude, focusing entirely on frontend design and interactivity without any backend integration.
+
+## Features
+
+- Responsive chat interface (mobile-first design)
+- Sidebar with chat history layout
+- Welcome screen with suggestion cards
+- User and AI message bubbles
+- Typing indicator animation
+- Auto-resizing textarea input
+- Send button state management
+- Smooth scrolling and animations
+- Simulated AI responses (mock data)
+
+## Tech Stack
+
+- HTML5 (Semantic structure)
+- CSS3 (Flexbox, Grid, Variables, Animations)
+- JavaScript (DOM manipulation)
+- jQuery (event handling and interactivity)
+- Bootstrap 5 (layout and responsiveness)
+- Font Awesome (icons)
+- Google Fonts (Inter)
+
+## Project Structure
+
+CampusPe-Assignmet-2/
+│── index.html
+│── style.css
+│── script.js
+│── README.md
+
